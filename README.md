@@ -5,10 +5,10 @@ Tools for validating DIST-ALERT and DIST-ANN
 DIST-ALERT and DIST-ANN were validated using a stratified random sample of time-series reference data. A global stratification was derived for 2021-10-01 through 2022-09-30 and fifty 30 m pixels were selected per stratum as sample units, resulting in 300 sample units. The values of VEG-DIST-STATUS, which is a summary of the current disturbance status, of DIST-ALERT were compared against the same date in the reference time-series data to assess the accuracy.
 
 ### Input data
-The list of sample units and the locations are found in sampledpixels1214.csv. The DIST-ALERT labels per each sample unit are found in mapLabelsv1sample/[unit ID]_DIST-ALERT_v1sample.csv. These tables provide the granule ID, the sensing time, and the values of the data layers for each date through the evaluation year. The DIST-ANN values are in one combined table, mapLabelsv1sample/All_DIST-ANN_v1sample.csv. The reference time-series data per sample unit is found in the table referenceTimeSeries_last.csv. These data were extracted and compiled with Extract_map_ref_data.ipynb. Strata areas and counts are found in stratatable_0119_z.txt
+The list of sample units and the locations are found in sampledpixels1214.csv. The DIST-ALERT labels per each sample unit are found in mapLabelsv1sample/[unit ID]_DIST-ALERT_v1sample.csv. These tables provide the granule ID, the sensing time, and the values of the data layers for each date through the evaluation year. The DIST-ANN values are in one combined table, mapLabelsv1sample/All_DIST-ANN_v1sample.csv. The reference time-series data per sample unit is found in the table referenceTimeSeries_last.csv. These data were extracted and compiled with Extract_map_ref_data.ipynb. Strata areas and counts are found in stratatable_0119_z.txt.
 
 ### Accuracy caluclations
-All accuracy ....
+All accuracy calculations are included within the Accuracy_v1.ipynb notebook.
 
 #### Summary results
 DIST-ALERT_v1
